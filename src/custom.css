@@ -1,0 +1,223 @@
+/* custom.css */
+
+.custom-navbar {
+  background-color: linear-gradient(to right, #d999cc, #ff9933 );
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+ .navbar-nav {
+  display: flex;
+  /* Align items to the right */
+  align-items: center; /* Align items vertically */
+}
+
+.custom-navbar .navbar-nav .nav-item {
+  margin-right: 10px;
+  padding-right: 80px; /* Add space between nav items */
+}
+
+.custom-navbar .navbar-nav .nav-link,
+.custom-navbar .navbar-nav .nav-link.active .nav-item {
+  color: #fff;
+}
+
+body {
+  background: linear-gradient(to right,  #d999cc, #ff9933 );
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 60px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-collapse ul {
+  margin-right: 0;
+}
+
+.content-container {
+  padding-top: 70px;
+}
+
+.about-section {
+  color: white; /* #d999cc, #ff9933 */
+}
+
+.about-section .card {
+  background-color: #3d301a; /* Grey background color */
+  color: white; /* Text color inside the cards */
+}
+
+
+
+.container {
+  padding: 0 16px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.column {
+  display: inline-block;
+  width: 460px;
+  min-width: 20px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+/* CSS Styles */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-right: -5px; /* Adjust margin to move slightly to the left */
+}
+
+.custom-navbar .navbar-brand img {
+  width: 130px;
+  height: auto;
+  margin-left: -100px;
+}
+
+.rent-track-text {
+  font-family: 'Lilita One', cursive;
+  color: #835027;
+  font-size: 40px;
+  margin-left: -10px; /* Adjust margin to move slightly to the left */
+}
+
+.button {
+  background-color: #d11900;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 180px;
+  margin-left: 90px;
+  margin-bottom: 400px;
+}
+
+.button5 {
+  border-radius: 30%;
+}
+
+.button2 {
+  background-color: #d11900;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 180px;
+  margin-left: 10px;
+  margin-bottom: 2000x;
+}
+
+.button6 {
+  border-radius: 30%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: orange; /* Change this to any color you want */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: orange; /* Change this to any color you want */
+}
+
+.btn:hover {
+  background-color: darkorange; /* Change this to any color you want */
+}
+.menu{
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.card {
+  border-radius: 30px; /* Add rounded corners */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.card h2 a {
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Maintain arrow cursor */
+}
+
+.card h2 a:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.logo-image {
+  width: 400px; /* Adjust the width as needed */
+  height: auto;
+   
+  /* Maintain aspect ratio */
+}
+
+.form-container {
+  margin-top: -60px; /* Adjust the margin as needed */
+}
